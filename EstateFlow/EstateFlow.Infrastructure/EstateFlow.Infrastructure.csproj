@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EstateFlow.Application\EstateFlow.Application.csproj" />
     <ProjectReference Include="..\EstateFlow.Domain\EstateFlow.Domain.csproj" />
   </ItemGroup>
 

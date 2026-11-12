@@ -4,6 +4,7 @@ using EstateFlow.Infrastructure.Data;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using EstateFlow.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,13 +18,8 @@ builder.Services.AddOpenApi(options =>
 });
 
 
-builder.Services.AddDbContext<EstateFlowDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("EstateFlowDbConnection")));
-
-builder.Services.AddValidatorsFromAssemblyContaining<IApplicationDbContext>();
-
-
-builder.Services.AddScoped<IMeterReadingService, MeterReadingService>();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

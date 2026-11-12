@@ -740,6 +740,9 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
+              "C:\\Users\\rolko\\Documents\\EstateFlow-Lab05\\EstateFlow\\EstateFlow.Application\\EstateFlow.Application.csproj": {
+                "projectPath": "C:\\Users\\rolko\\Documents\\EstateFlow-Lab05\\EstateFlow\\EstateFlow.Application\\EstateFlow.Application.csproj"
+              },
               "C:\\Users\\rolko\\Documents\\EstateFlow-Lab05\\EstateFlow\\EstateFlow.Domain\\EstateFlow.Domain.csproj": {
                 "projectPath": "C:\\Users\\rolko\\Documents\\EstateFlow-Lab05\\EstateFlow\\EstateFlow.Domain\\EstateFlow.Domain.csproj"
               }
