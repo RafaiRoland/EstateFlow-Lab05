@@ -1,7 +1,10 @@
 <Solution>
+  <Project Path="EstateFlow.Application/EstateFlow.Application.csproj" Id="7a1ffae4-e44c-48eb-b151-7cbd5c37cc28" />
   <Project Path="estateflow.client/estateflow.client.esproj">
     <Build />
     <Deploy />
   </Project>
+  <Project Path="EstateFlow.Domain/EstateFlow.Domain.csproj" Id="34fbbebe-0776-4e04-8882-4a943e11591c" />
+  <Project Path="EstateFlow.Infrastructure/EstateFlow.Infrastructure.csproj" Id="0185f0cc-6726-43e4-a388-de394fb0ae3b" />
   <Project Path="EstateFlow.Server/EstateFlow.Server.csproj" />
 </Solution>
